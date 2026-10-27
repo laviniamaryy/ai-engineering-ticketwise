@@ -2,7 +2,7 @@
 # TicketWise — AI-Powered Ticket Support Assistant for CloudJoi
 
 <p align="center">
-  <img src="docs/ticketwise_logo.png" alt="TicketWise Logo" width="180">
+  <img src="docs/ticketwise_logo.png" alt="TicketWise Logo" width="400">
 </p>
 
 > An AI support assistant that answers ticketing questions using official CloudJoi information and checks simulated order statuses and refund conditions.
