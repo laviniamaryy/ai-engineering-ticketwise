@@ -26,7 +26,7 @@ Source / citation: CloudJoi, *Ticketing Terms & Conditions*.
 
 URL: https://www.cloudjoi.com/ticketing-tnc
 
-# Initial Related Work (at least 3)
+# Initial Related Work
 
 **Study / solution 1: CloudJoi FAQ and Support Knowledge Base**
 
@@ -57,7 +57,7 @@ URL: https://www.cloudjoi.com/ticketing-tnc
 
 Existing support pages provide information for users to read, while RAG and tool-using language models provide approaches for retrieving information and performing tasks. The proposed gap is to combine document-grounded answers with controlled tool calling in one ticket-support workflow. TicketWise will retrieve policy information, check simulated order records, and assess refund conditions while validating tool inputs and identifying cases that require human confirmation.
 
-# Initial Project Objectives (2–3)
+# Initial Project Objectives
 
 **O1:** To design a support assistant that retrieves relevant information from publicly available CloudJoi documents and provides source references.
 
@@ -71,7 +71,7 @@ CloudJoi customers who need help with ticket retrieval, ticketing policies, orde
 
 *(The prototype will use synthetic order data for testing and will not access real customer accounts.)*
 
-# Data Sources (at least 2)
+# Data Sources
 
 **Source 1: CloudJoi Frequently Asked Questions**
 
