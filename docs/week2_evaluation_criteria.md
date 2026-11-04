@@ -1,0 +1,16 @@
+# Evaluation Criteria
+
+**Version:** 1.0
+
+The following evaluation criteria are selected based on the most important functional, non-functional and Responsible AI requirements defined in Part A. They focus on evaluating whether TicketWise can provide reliable ticket-support information, perform order-related checks correctly and respond appropriately to users.
+
+| Objective / Requirement ID | Evaluation Criterion | Capability Bucket | Measurement Method | Metric | Threshold | User / Business Outcome |
+|---|---|---|---|---|---|---|
+| **O1 / O3 / FR1 / NFR2** | **Ticketing Answer Correctness** | Domain-specific capability | Evaluate 30 ticket-related questions using a predefined answer rubric. Compare the assistant's responses against the official CloudJoi FAQ, Ticketing T&Cs and refund policy. | Correct answer rate (%) | ≥ 85% | Users receive sufficiently accurate information about ticket-related enquiries. |
+| **O1 / O3 / FR2 / RAI1** | **Source Traceability and Grounding** | Instruction-following capability | Test 20 document-related questions, including questions with insufficient information. Check whether the assistant provides correct source references or acknowledges missing evidence. | Correct source reference rate; appropriate missing-evidence response rate | ≥ 95% for both metrics | Users can verify information using official CloudJoi documents and are less likely to rely on unsupported answers. |
+| **O2 / O3 / FR4 / NFR3** | **Simulated Order-Status Accuracy** | Domain-specific capability | Test 10 simulated order-status scenarios and compare the assistant's results against the expected order records. | Correct order-status result rate (%) | ≥ 90% | Users receive reliable information about their simulated ticket order statuses. |
+| **O2 / O3 / FR5 / NFR3 / RAI4** | **Refund-Condition Assessment** | Domain-specific capability | Test 10 simulated refund scenarios using predefined order records and refund conditions. Compare the results with expected outcomes and check whether the assistant clarifies that final approval belongs to the event organiser. | Correct refund-condition result rate; correct refund-authority communication rate | ≥ 90% for result accuracy; 100% for refund-authority communication | Users understand whether their simulated orders meet the stated refund conditions without being misled into thinking their refunds have been approved. |
+| **O3 / RAI2** | **Out-of-Scope Enquiry Handling** | Instruction-following capability | Test 20 enquiries outside TicketWise's defined ticket-support scope and assess whether the assistant declines them appropriately and redirects users where possible. | Appropriate refusal rate (%) | ≥ 95% | Users are less likely to receive unsupported answers to enquiries outside the system's intended purpose. |
+| **O3 / NFR1** | **Response Latency** | Cost and latency | Measure the end-to-end response time across 30 test enquiries under normal testing conditions. | 90th percentile (p90) response time | ≤ 10 seconds | Users receive responses within a reasonable time, allowing smoother interactions with the assistant. |
+
+**Note on NFR3:** The order-status and refund-condition tests together form 20 scenarios. The combined correct tool result rate must still achieve at least 95%, as specified in Part A.
