@@ -8,7 +8,7 @@
 ## Problem Statement
 Customers do not always resolve their questions through self-service support information. A Gartner survey found that only 14% of customer service issues were fully resolved through self-service. CloudJoi's ticketing terms also show that refund requests can depend on event conditions, deadlines, and organiser approval.
 
-TicketWise will be a prototype that answers policy questions using official information and uses controlled tools to check simulated order records and refund conditions. It will be evaluated for accuracy, tool selection, source support, and error handling.
+TicketWise will be a prototype that answers policy questions using official information and uses controlled tools to check simulated order records and refund conditions. It will be evaluated based on policy-answer correctness, source traceability, tool-selection accuracy, simulated tool-result accuracy, and error handling.
 
 ## Evidence of the Problem
 - **Evidence 1: Self-service support does not always resolve customer issues.**
@@ -56,5 +56,5 @@ CloudJoi customers seeking help with ticket retrieval, ticketing policies, order
 | Week | Focus | Deliverable | Status |
 |------|-------|-------------|--------|
 | W1 | System map + project scope | README + docs | ✅ |
-
+| W2 | Requirements, evaluation criteria and architecture | Requirements specification, evaluation criteria, V1 architecture diagram and architecture decisions | ✅ |
 
