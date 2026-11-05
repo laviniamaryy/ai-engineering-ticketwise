@@ -12,9 +12,9 @@
 
 | Objective | Requirement | Evaluation Criterion | Architecture Element | Later Evidence |
 |---|---|---|---|---|
-| O1 | FR1, FR2, NFR2, RAI1 | Ticketing Answer Correctness; Source Traceability and Grounding | Knowledge Access, CloudJoi Knowledge Sources, Language Model Service and Scope / Safety Control | Results from 30 ticket-related questions and 20 document-related questions, including answer correctness, source-reference accuracy and handling of insufficient evidence. |
-| O2 | FR4, FR5, NFR3, RAI4 | Simulated Order-Status Accuracy; Refund-Condition Assessment | Controlled Tools and Simulated Order Records | Results from 10 simulated order-status scenarios and 10 simulated refund scenarios, including correct results and refund-authority communication. |
-| O3 | RAI2, NFR4, NFR1 | Out-of-Scope Enquiry Handling; Response Latency | Scope / Safety Control, TicketWise Application / Interface and Evaluation Point | Results from 20 out-of-scope enquiries and response-time measurements across 30 test enquiries. |
+| O1 | FR1, FR2, FR3, NFR2, RAI1 | Ticketing Answer Correctness; Source Traceability and Grounding | Knowledge Access, CloudJoi Knowledge Sources, Language Model Service and Scope / Safety Control | Results from 30 ticket-related questions and 20 document-related questions, including answer correctness, source-reference accuracy and handling of insufficient evidence. |
+| O2 | FR4, FR5, NFR3, RAI4 | Simulated Order-Status Accuracy; Refund-Condition Assessment; Tool-Selection Accuracy | Language Model Service, Controlled Tools and Simulated Order Records | Results from 10 simulated order-status scenarios and 10 simulated refund scenarios, including correct tool selection, correct results and refund-authority communication. |
+| O3 | RAI2, NFR1, NFR4 | Ticketing Answer Correctness; Source Traceability and Grounding; Tool-Selection Accuracy; Out-of-Scope Enquiry Handling; Missing and Unavailable Information Handling; Response Latency | Language Model Service, Knowledge Access, Controlled Tools, Scope / Safety Control, TicketWise Application / Interface and Evaluation Point | Results from 30 ticket-related questions, 20 document-related questions, 20 tool-selection enquiries, 20 out-of-scope enquiries, 10 missing or unavailable information scenarios, and response-time measurements across 30 test enquiries. |
 
 ## 3. Architecture Review
 
