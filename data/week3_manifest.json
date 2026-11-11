@@ -1,0 +1,45 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-11T07:20:42.760137+00:00",
+  "records": [
+    {
+      "source_id": "cloudjoi-cloudjoi-faq",
+      "source_filename": "cloudjoi_faq.pdf",
+      "source": "data/raw/cloudjoi_faq.pdf",
+      "source_sha256": "177c3487fdb336346ba5d4657ac16e0403927784d829b97f3a68a4d9f7139efc",
+      "prepared_output": "data/processed/prepared_text.jsonl",
+      "prepared_sha256": "158b80c1e5f3e77652fa9875ad509774cb34e11cf83de84396b95ebbc50f84d1",
+      "processing_note": "FAQ question-answer extraction",
+      "processing": "FAQ question-answer extraction",
+      "source_version": "Not verified",
+      "access_rights": "Publicly accessible official CloudJoi website content; reuse and redistribution permissions not independently verified",
+      "status": "prepared"
+    },
+    {
+      "source_id": "cloudjoi-cloudjoi-ticketing-terms",
+      "source_filename": "cloudjoi_ticketing_terms.pdf",
+      "source": "data/raw/cloudjoi_ticketing_terms.pdf",
+      "source_sha256": "9d6a697f53049531b223e5e71233559b12468b0833bcc2c95aef96cdd6d02ddf",
+      "prepared_output": "data/processed/prepared_text.jsonl",
+      "prepared_sha256": "158b80c1e5f3e77652fa9875ad509774cb34e11cf83de84396b95ebbc50f84d1",
+      "processing_note": "Section-aware extraction",
+      "processing": "Section-aware extraction",
+      "source_version": "Not verified",
+      "access_rights": "Publicly accessible official CloudJoi website content; reuse and redistribution permissions not independently verified",
+      "status": "prepared"
+    },
+    {
+      "source_id": "cloudjoi-cloudjoi-refund-policy",
+      "source_filename": "cloudjoi_refund_policy.pdf",
+      "source": "data/raw/cloudjoi_refund_policy.pdf",
+      "source_sha256": "fba159df6033af01247f2ab63a3e9d4498a5d9cce3fec5076afeab608bd00e16",
+      "prepared_output": "data/processed/prepared_text.jsonl",
+      "prepared_sha256": "158b80c1e5f3e77652fa9875ad509774cb34e11cf83de84396b95ebbc50f84d1",
+      "processing_note": "Document-level extraction",
+      "processing": "Document-level extraction",
+      "source_version": "Not verified",
+      "access_rights": "Publicly accessible official CloudJoi website content; reuse and redistribution permissions not independently verified",
+      "status": "prepared"
+    }
+  ]
+}

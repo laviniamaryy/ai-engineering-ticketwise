@@ -52,9 +52,10 @@ CloudJoi customers seeking help with ticket retrieval, ticketing policies, order
 - [Source 2: CloudJoi Ticketing Terms & Conditions — https://www.cloudjoi.com/ticketing-tnc]
 - [Source 3: CloudJoi Refund and Exchange Policy — https://help.cloudjoi.com/articles/1746419291-what-is-cloud_joi-s-refund-and-exchange-policy]
 
+
 ## Weekly Progress
 | Week | Focus | Deliverable | Status |
 |------|-------|-------------|--------|
 | W1 | System map + project scope | README + docs | ✅ |
 | W2 | Requirements, evaluation criteria and architecture | Requirements specification, evaluation criteria, V1 architecture diagram and architecture decisions | ✅ |
-
+| W3 | Data Engineering for AI: Pipelines, Lineage and Workflows | Pipeline Notebook, Data Inventory, Pipeline Diagram and Prepared Data Export | ✅ |

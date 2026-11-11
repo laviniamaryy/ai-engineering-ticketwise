@@ -1,0 +1,71 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-11T07:20:56.069131+00:00",
+  "data_type": "documents",
+  "configuration": {
+    "method": "structure-aware",
+    "faq": "introduction + question-answer",
+    "terms": "section-aware",
+    "refund": "document-level"
+  },
+  "processing_method": "Structure-aware preparation: FAQ question-answer extraction, Ticketing Terms section-aware extraction, and refund policy document-level extraction.",
+  "sources": [
+    {
+      "path": "/content/week3_project/data/raw/cloudjoi_faq.pdf",
+      "sha256": "177c3487fdb336346ba5d4657ac16e0403927784d829b97f3a68a4d9f7139efc"
+    },
+    {
+      "path": "/content/week3_project/data/raw/cloudjoi_refund_policy.pdf",
+      "sha256": "fba159df6033af01247f2ab63a3e9d4498a5d9cce3fec5076afeab608bd00e16"
+    },
+    {
+      "path": "/content/week3_project/data/raw/cloudjoi_ticketing_terms.pdf",
+      "sha256": "9d6a697f53049531b223e5e71233559b12468b0833bcc2c95aef96cdd6d02ddf"
+    }
+  ],
+  "outputs": [
+    "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "/content/week3_project/data/raw/cloudjoi_faq.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    },
+    {
+      "source": "/content/week3_project/data/raw/cloudjoi_refund_policy.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    },
+    {
+      "source": "/content/week3_project/data/raw/cloudjoi_ticketing_terms.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    }
+  ],
+  "inspection": [
+    {
+      "filename": "cloudjoi_faq.pdf",
+      "pages": 2,
+      "characters": 6177
+    },
+    {
+      "filename": "cloudjoi_refund_policy.pdf",
+      "pages": 1,
+      "characters": 611
+    },
+    {
+      "filename": "cloudjoi_ticketing_terms.pdf",
+      "pages": 5,
+      "characters": 18227
+    }
+  ],
+  "validation": {
+    "output_count": 1,
+    "output_sha256": [
+      "673b11a1e4492bb645a789de9cce7bbf5739750b06ae25ba53dd08b3b45df811"
+    ],
+    "output_bytes": [
+      33915
+    ]
+  },
+  "source_version": "Not verified",
+  "access_rights": "Not verified — check before sharing"
+}
