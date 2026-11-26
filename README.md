@@ -59,3 +59,14 @@ CloudJoi customers seeking help with ticket retrieval, ticketing policies, order
 | W1 | System map + project scope | README + docs | ✅ |
 | W2 | Requirements, evaluation criteria and architecture | Requirements specification, evaluation criteria, V1 architecture diagram and architecture decisions | ✅ |
 | W3 | Data Engineering for AI: Pipelines, Lineage and Workflows | Pipeline Notebook, Data Inventory, Pipeline Diagram and Prepared Data Export | ✅ |
+| W4 | Data Quality and Responsible Data Practices | Quality Assessment Notebook, Cleaned Corpus, Validation Evidence, Coverage Analysis and Data Quality Report | ✅ |
+
+## Topic 4 Data Quality Handover
+
+The prepared CloudJoi corpus was assessed for completeness, consistency, accuracy, timeliness, uniqueness, coverage, potential bias and responsible data practices.
+
+The reviewed corpus for subsequent development is:
+- `data/prepared_chunks_clean.jsonl`
+- `data/chunks_clean.pkl`
+
+The cleaned corpus retains the original source and provenance metadata. It is approved for further development with conditions, as documented in `docs/week4_data_quality_report.md`. Known limitations and unresolved quality issues must be considered when using the corpus in later stages.
